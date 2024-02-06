@@ -1,0 +1,52 @@
+.dropzoneStyles {
+    border: 2px dashed #CED4DC;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px;
+    width: 400px;
+    height: 350px;
+    background: #F0F0F0;
+  }
+  
+  @media (max-width: 500px) {
+    .dropzoneStyles {
+      width: 200px;
+      height: 250px;
+    }
+  }
+
+  @media (min-width:501px) and (max-width: 900px) {
+    .dropzoneStyles {
+      width: 400px;
+      height: 350px;
+    }
+  }
+
+
+  @media (min-width:501px) and (max-width: 900px) {
+    .dropzoneStyles {
+      width: 400px;
+      height: 350px;
+    }
+  }
+
+
+  @media (min-width: 501px) {
+    .image {
+      width: 300px;
+      height: 250px;
+    }
+  }
+
+
+
+
+
+  @media (max-width: 500px) {
+    .image {
+      width: 150px;
+      height: 150px;
+    }
+  }

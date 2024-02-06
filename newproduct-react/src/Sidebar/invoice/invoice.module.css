@@ -1,0 +1,17 @@
+.accbody {
+    background-color: #1f2129;
+    color: aliceblue;
+    border: none;
+  }
+ 
+  .body{
+    margin-left: 20px;
+  }
+  
+
+  .body:hover{
+    background-color: #4d5560;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+ 

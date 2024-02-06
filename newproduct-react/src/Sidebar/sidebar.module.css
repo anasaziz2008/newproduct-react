@@ -1,0 +1,44 @@
+.sidebar1 {
+  width: 280px;
+  height: 100%;
+  border-radius: 0px 30px 30px 0px;
+  background: #1f2129;
+}
+
+
+.sidebar2 {
+    background: #1f2129;
+    overflow: auto;
+  
+}
+
+
+.brandname {
+  display: flex;
+  padding: 25px 5px 25px 17px;
+
+  justify-content: center;
+  align-items: center;
+  gap:  10px;
+  color: aliceblue;
+}
+
+
+@media screen and (max-width: 901px) {
+  .sidebar1{
+  display: none; 
+   
+}
+}
+
+@media screen and (min-width: 900px) {
+  .sidebar2{
+    display: none; 
+}
+.sidebar1{
+  height: 100vh;   
+}
+.two{
+  display: none; 
+}
+}
